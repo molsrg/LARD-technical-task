@@ -1,0 +1,161 @@
+@use 'vuetify/settings' with (
+	$body-font-family: 'Montserrat',
+	$input-control-height: 20px
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	background-color: rgb(247, 248, 249);
+}
+
+// createEmployee.vue
+.create-form {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 4px;
+}
+
+.create-form-title {
+	margin-bottom: 15px;
+}
+
+// layouts/EmployyesApp.vue
+.employees-container {
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+}
+
+// SearchEmployes.vue
+.search-input {
+	width: 100%;
+}
+
+.v-field.v-field--appended {
+	background-color: rgb(231, 243, 255);
+}
+
+// components / EmployyesApp.vue
+
+.employees {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.btn-container {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.employes-wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+.button-chunk {
+	margin: auto;
+}
+
+// EmployeerApp.vue
+
+.user-global {
+	white-space: nowrap;
+	font-size: 14px;
+	color: #041423;
+}
+
+.user-card {
+	background-color: #e7f3ff;
+	padding: 25px;
+	color: #041423;
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+.user-card-line {
+	display: flex;
+	column-gap: 10px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.user-title {
+	font-size: 18px;
+	color: #2a358c;
+}
+
+.user-inn {
+	background-color: white;
+	color: #84909b;
+	padding: 0px 10px;
+	border-radius: 4px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.user-contract {
+	background-color: #00ae5b;
+	padding: 0px 6px;
+	border-radius: 4px;
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.user-position {
+	text-transform: lowercase;
+}
+
+.user-country {
+	display: flex;
+	align-items: center;
+	column-gap: 8px;
+}
+
+.vertical-line {
+	color: #cedae5;
+}
+
+// filterApp.vue
+
+.filter {
+	padding: 30px;
+	background-color: white;
+	max-height: 600px;
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+}
+
+.filter-container {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 10px;
+}
+
+.filter-container-item {
+	width: 100%;
+}
+
+.form-select {
+	display: flex;
+	column-gap: 20px;
+	row-gap: 10px;
+}
+
+.filter-checkbox {
+	display: flex;
+	flex-direction: column;
+}
+
+.filter-btn-container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
