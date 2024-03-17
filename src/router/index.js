@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeApp from "@/views/HomeApp.vue";
 const routes = [
   {
-    path: "/LARD-task/",
+    path: "/LARD-technical-task/",
     component: HomeApp,
   },
 ];
