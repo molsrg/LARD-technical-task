@@ -9,7 +9,7 @@ import { fileURLToPath, URL } from "node:url";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: `/LARD-task/`,
+  base: `/LARD-technical-task/`,
   plugins: [
     vue({
       template: { transformAssetUrls },
